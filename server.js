@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne - {
+var articleOne = {
     title: 'Article One 1 Sri Sunku',
     heading: 'Article One',
     date: 'Sep 5,2016',
@@ -59,7 +59,7 @@ content:`
        </body> 
     
 </html>
-;
+`;
  return htmlTemplate ;
 }
 
