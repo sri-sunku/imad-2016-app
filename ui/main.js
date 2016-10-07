@@ -23,7 +23,7 @@ button.onclick = function (){
     };
     
     // make the request
-    request.open('GET','http://sri-sunku.imad.hasura-ap.io/counter',true);
+    request.open('GET', 'http://sri-sunku.imad.hasura-ap.io/counter',true);
     request.send(null);
     
     
